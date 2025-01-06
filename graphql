@@ -1,0 +1,19 @@
+Student-Management-System/
+├── backend/                           # Java Spring Boot Backend
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── sms/
+│   │   │   │           ├── controller/      # Controllers for API endpoints
+│   │   │   │           ├── model/           # Model classes (Student, Course, etc.)
+│   │   │   │           ├── repository/      # JPA Repositories
+│   │   │   │           ├── service/         # Services for business logic
+│   │   │   │           └── StudentManagementSystemApplication.java
+│   │   │   └── resources/
+│   │   │       └── application.properties   # DB configurations, etc.
+├── frontend/                          # HTML, CSS, JS (Frontend)
+│   ├── index.html
+│   ├── styles.css
+│   └── app.js
+└── README.md
